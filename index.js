@@ -457,6 +457,7 @@ while (vitoriaOlimpiadas === false) {
     if (pontoJogador > pontoInimigo) {
         alert("Depois de uma árdua batalha, você derrotou seu inimigo de forma impressionante, Parabéns, você é agora o campeão mundial de box e ganhou as olimpiadas!");
         alert("GAME WON")
+     throw new Error
     }
 }
 }
