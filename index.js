@@ -102,7 +102,7 @@ while(experiencia < 100) {
         case 4:
             if(energia > 25){
                 alert("Você trabalhou, perdendo 25 de energia.");
-                dinheiro += 99999;
+                dinheiro += 40;
                 energia -= 25;
                 alert("Agora seu dinheiro é " + dinheiro + " e sua energia é " + energia + ".");
             } else {
